@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const request = require('supertest');
-const {User,validateUser} = require('../../models/userSchema');
+const {User} = require('../../models/userSchema');
 
 describe('Users endPoints', ()=>{
     let app;
